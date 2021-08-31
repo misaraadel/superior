@@ -1,0 +1,87 @@
+@media(max-width: 900px)
+{
+    h1,
+    h2,
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    h5 {
+        font-size: 16px !important;
+    }
+
+    h6 {
+        font-size: 14px !important;
+    }
+
+    p , a {
+        font-size: 12px !important;
+    }
+    .navbar .nav-header
+    {
+        background: none;
+    }
+    .mobile-none ,.scroll-top-btn , footer .content::after  ,
+    .visions .box::after
+    {
+        display: none !important;
+    }
+    .copyrights .data , header ,  .general-section
+    {
+        padding: 15px 0px;
+    }
+    .copyrights 
+    {
+        padding: 10px 0px 50px 0px;
+    }
+    .copyrights p , header .custom-btn , .banner .content h5 , .banner .content .salary ,  .banner .content .custom-btn ,
+    footer .content .image-content
+    {
+        margin: auto;
+    } 
+    .cart-container .cart-items
+    {
+        width: 85% !important;
+    }
+    .cart-container input {
+        width: 30px !important;
+    }
+    .mobile-only ,.mobile-nav
+    {
+        display: block;
+    }
+    .banner .content
+    {
+        text-align: center;
+    }
+    .banner-height  .content ,.banner .content.special-content
+    {
+        height: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .tab-bar{
+        display: flex;
+    }
+    .banner .image-content
+    {
+        height: 150px !important;
+    }
+    .copyrights .image-content {
+        width: fit-content;
+        margin: auto;
+        float: none !important;
+        
+    }
+    .copyrights .image-content img 
+    {
+        width: 125px;
+        margin: auto;
+    }
+}
